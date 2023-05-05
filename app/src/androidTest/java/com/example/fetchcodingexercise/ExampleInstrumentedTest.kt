@@ -21,9 +21,4 @@ class ExampleInstrumentedTest {
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
         assertEquals("com.example.fetchcodingexercise", appContext.packageName)
     }
-
-    @Test
-    fun getResponse() {
-
-    }
 }
